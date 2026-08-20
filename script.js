@@ -40,7 +40,7 @@ const perguntas = [
        {
            texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
            afirmacao: "afirmação"
-       },
+       }
    ]
  },
  {
@@ -53,7 +53,7 @@ const perguntas = [
        {
            texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
            afirmacao: "afirmação"
-       },
+       }
    ]
  },
  {
@@ -66,7 +66,7 @@ const perguntas = [
        {
            texto:"O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
            afirmacao: "afirmação"
-       },
+       }
    ]
  },
 ];
