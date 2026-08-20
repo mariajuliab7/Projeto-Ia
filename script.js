@@ -4,6 +4,7 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
+
 const perguntas = [
  {
    enunciado:"Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
@@ -13,9 +14,9 @@ const perguntas = [
            afirmacao: "afirmação"
        },
        {
-           texto:"Isso é maravilhoso!"
+           texto:"Isso é maravilhoso!",
            afirmacao: "afirmação"
-       } 
+       }
    ]
  },
  {
@@ -32,7 +33,8 @@ const perguntas = [
    ]
  },
  {
-   enunciado:"Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversaalternativas: [
+   enunciado:"Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+   alternativas: [
        {
            texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
            afirmacao: "afirmação"
@@ -93,4 +95,3 @@ function mostraAlternativas(){
 }
 
 mostraPergunta();
- também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
