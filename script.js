@@ -10,11 +10,11 @@ const perguntas = [
        alternativas: [
         {
             texto:"Isso é assustador!",
-            afirmacao: "No início ficou com medo do que essa tecnologia pode fazer."
+            afirmacao: "Sentir medo diante de uma tecnologia nova e capaz de criar conteúdos tão realistas é uma reação natural."
         },
         {
             texto:"Isso é maravilhoso!",
-            afirmacao: "Quis saber como usar IA no seu dia a dia."
+            afirmacao: "A curiosidade sobre a IA pode despertar o interesse em descobrir novas formas de utilizá-la no dia a dia."
         }
     ]
   },
@@ -23,11 +23,11 @@ const perguntas = [
     alternativas: [
         {
             texto:"Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-            afirmacao: "A IA pode ajudar na pesquisa e na compreensão do conteúdo, mas é importante verificar as informações encontradas."
+            afirmacao: "Utilizar a IA como apoio à pesquisa pode facilitar a busca e a compreensão das informações, mas é importante conferir se os dados estão corretos."
         },
         {
             texto:"Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-            afirmacao: "Essa atitude mostra que é possível realizar uma pesquisa utilizando diferentes fontes, combinando conhecimentos próprios, opiniões de colegas e informações encontradas na internet."
+            afirmacao: "Pesquisar em diferentes fontes e utilizar os próprios conhecimentos permite construir um trabalho com diferentes perspectivas sobre o tema."
         }
     ]
   },
@@ -36,15 +36,11 @@ const perguntas = [
     alternativas: [
         {
             texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-            afirmacao:  "A IA pode transformar o mercado de trabalho, criando novas oportunidades e ajudando as pessoas a desenvolver novas habilidades."
-
-
-
-
+            afirmacao: "A IA pode transformar o mercado de trabalho, criando novas oportunidades e auxiliando as pessoas no desenvolvimento de diferentes habilidades."
         },
         {
             texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.",
-            afirmacao: "Essa preocupação é importante, pois a substituição de trabalhadores pela IA pode afetar empregos, sendo necessário buscar formas de proteger e preparar as pessoas para as mudanças no mercado de trabalho."
+            afirmacao:"A possibilidade de substituição de algumas funções pela IA mostra a importância de preparar e proteger os trabalhadores diante das mudanças."
         }
     ]
   },
@@ -53,11 +49,11 @@ const perguntas = [
     alternativas: [
         {
             texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
-            afirmacao: "Os geradores de imagem com IA podem ajudar a transformar ideias em imagens de forma criativa e rápida."
+            afirmacao: "Criar a imagem manualmente permite expressar as próprias ideias e desenvolver a criatividade por meio de uma ferramenta de desenho."
         },
         {
             texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
-            afirmacao: "Inteligências artificiais populares que criam qualquer tipo de imagem a partir de uma descrição em texto."
+            afirmacao: "Um gerador de imagens com IA pode transformar uma descrição em texto em uma imagem, facilitando a representação de ideias."
 
 
         }
