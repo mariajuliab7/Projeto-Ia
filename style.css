@@ -1,43 +1,93 @@
-:root{
-    --cor-fundo: #01080E ;
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+:root {
+   --cor-fundo: #01080E;
+   --cor-principal: #0B0D20;
+   --cor-secundaria: #212333;
+   --cor-destaque: #2BDEFD;
+   --cor-texto: #D7F9FF;
+}
 
+* {
+   box-sizing: border-box;
 }
 
 body {
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+   background-color: var(--cor-fundo);
+   color: var(--cor-texto);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   margin: 0;
+   padding: 20px;
+   font-family: Arial, sans-serif;
 }
 
-.caixa-principal{
-    background-color: var(--cor-principal);
-    width: 90%;
-    max-width: 600px;
-    text-align: center;
-    padding: 20px;
+.caixa-principal {
+   background-color: var(--cor-principal);
+   width: 90%;
+   max-width: 600px;
+   text-align: center;
+   padding: 20px;
+   border-radius: 15px;
 }
 
-h1{
-    color: var(--cor-destaque);
+h1 {
+   color: var(--cor-destaque);
+}
+
+.caixa-perguntas {
+   font-size: 18px;
+   margin: 25px 0;
+   line-height: 1.5;
+}
+
+.caixa-alternativas {
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
 }
 
 button {
-    background-color: var(--cor-secundaria);
-    color: var(--cor-texto);
-    border: none;
-    border-radius: 15px;
-    padding: 15px;
-    transition: background-color 0.3s;
+   background-color: var(--cor-secundaria);
+   color: var(--cor-texto);
+   border: none;
+   border-radius: 15px;
+   padding: 15px;
+   cursor: pointer;
+   transition: background-color 0.3s, color 0.3s;
+   font-size: 15px;
 }
 
-button:hover{
-    background-color: var(--cor-destaque);
-    color: var(--cor-principal);
+button:hover {
+   background-color: var(--cor-destaque);
+   color: var(--cor-principal);
+}
+
+.caixa-resultado {
+   display: none;
+   margin-top: 25px;
+}
+
+.texto-resultado {
+   line-height: 1.6;
+   font-size: 17px;
+}
+
+.novamente-btn {
+   margin-top: 15px;
+}
+
+@media (max-width: 500px) {
+   .caixa-principal {
+       width: 100%;
+       padding: 15px;
+   }
+
+   h1 {
+       font-size: 24px;
+   }
+
+   button {
+       font-size: 14px;
+   }
 }
